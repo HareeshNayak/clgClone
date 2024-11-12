@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Form</title>
+    <link rel="stylesheet" href="form.css">
+    <script src="script.js"></script>
+    <style>
+        
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('image18.jpg'); 
+            background-size: cover; 
+            background-position: center; 
+            background-attachment: fixed; 
+        }
+    </style>
+    
+
+    
+    
+    
+
+</head>
+<body>
+    <script src="script.js"></script>
+   
+    
+    <h1> Admission Form </h1>
+    <form action="connect.php" method="post">
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        
+        <label for="mname">Middle Name:</label><br>
+        <input type="text" id="mname" name="mname"><br>
+        
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname" name="lname"><br><br>
+
+        <label for="course">Select Course:</label><br>
+        <select id="course" name="course">
+            <option value="computer_science">Computer Science</option>
+            <option value="electronics_communication">Electronics and Communication</option>
+            <option value="electrical">Electrical</option>
+            <option value="mechanical">Mechanical</option>
+            <option value="civil">Civil</option>
+            <option value="information_science">Information Science</option>
+        </select><br>
+        
+        <p>Select Admission Type:</p>
+        <input type="radio" id="cet" name="admissionType" value="CET">
+        <label for="cet">CET</label><br>
+        
+        <input type="radio" id="comedk" name="admissionType" value="COMED-K">
+        <label for="comedk">COMED-K</label><br>
+        
+        <input type="radio" id="management" name="admissionType" value="MANAGEMENT">
+        <label for="management">Management</label><br><br>
+
+        <label for="per">2nd PUC %:</label><br>
+        <input type="number" id="per" name="per"><br>
+
+        <label for="CET">CET Ranking:</label><br>
+        <input type="number" id="CET" name="CET"><br>
+
+        <label for="COMEDK">COMED-K Ranking:</label><br>
+        <input type="number" id="COMEDK" name="COMEDK"><br>
+
+        <label for="CELL">Mobile Number:</label><br>
+        <input type="number" id="CELL" name="CELL"><br>
+
+        <label for="email">E-Mail ID:</label><br>
+        <input type="alphanum" id="email" name="email"><br><br>
+
+        
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

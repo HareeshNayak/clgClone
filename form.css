@@ -1,0 +1,54 @@
+body {
+    background-color: #f5f5f5; /* Light gray background */
+    font-family: Arial, sans-serif; /* Default font */
+    display:center;
+    justify-content:center; /* Center horizontally */
+    align-items:center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+    margin: 0;
+}
+
+form {
+    background-color: #f0e6d2; /* Brown background for the form */
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px; /* Adjust width as needed */
+    
+}
+h1, form {
+    text-align: center; /* Align both h1 and form elements to the center */
+    margin: 0 auto; /* Center horizontally by setting left and right margins to auto */
+    max-width: 500px; /* Adjust maximum width as needed */
+}
+
+
+h1 {
+    text-align:center;
+    
+    color: #4d3319; 
+}
+
+label {
+    color: #4d3319; /* Dark brown text color for labels */
+}
+
+input[type="text"],
+input[type="checkbox"],
+input[type="submit"] {
+    width: 100%; /* Full width */
+    padding: 9px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 20px;
+    
+}
+
+input[type="submit"] {
+    background-color: #4d3319; /* Dark brown submit button */
+    color: #fff; /* White text color */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+input[type="submit"]:hover {
+    background-color: #663300; /* Darken the button on hover */
+}

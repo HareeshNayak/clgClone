@@ -1,0 +1,103 @@
+/* General Styles */
+
+body {
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif; /* Changed font family */
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Light gray background */
+    line-height: 1.6;
+}
+
+header {
+    background-color: #4d2600; /* Brown background */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #a0522d; /* Brown color for links */
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #8b4513; /* Darker brown color on hover */
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #4d2600; /* Brown background */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Hero Section Styles */
+
+#hero {
+    background-image: url('image3.png'); /* URL to your background image */
+    background-size: cover;
+    background-position: center;
+    color: #8b4513; /* Brown color for text */
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero-content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #fff; /* White color for headings */
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #a0522d; /* Brown color for paragraphs */
+}
+
+.btn {
+    display: inline-block;
+    background-color: #8b4513; /* Brown color for buttons */
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.btn:hover {
+    background-color: #5a2b00; /* Darker brown color on hover */
+}
+footer {
+    position: relative; 
+    text-align: center; 
+}
+
+button {
+    width: 200px; 
+    height: 50px; 
+    margin-top: 20px; 
+}
